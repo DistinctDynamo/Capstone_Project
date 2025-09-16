@@ -1,0 +1,42 @@
+{
+  "basic_info": {
+    "team_name": "Team 46",
+    "project_name": "Capstone Project I",
+    "meeting_number": "1",
+    "date": "16/09/2025",
+    "time": "1:30pm",
+    "location": "Online"
+  },
+  "attendees": [
+    "Steven",
+    "Kathan",
+    "Laurence",
+    "Kenan",
+    "Soroush"
+  ],
+  "agenda_items": [
+    {
+      "item": "Review of previous meeting",
+      "description": "N/A",
+      "responsibility": "N/A",
+      "planned_date": "N/A",
+      "status": "N/A",
+      "actual_date": "N/A"
+    },
+    {
+      "item": "Project kickoff",
+      "description": "Discuss project scope and timeline",
+      "responsibility": "All team members",
+      "planned_date": "20/09/2025",
+      "status": "0%",
+      "actual_date": "TBD"
+    }
+  ],
+  "next_meeting": {
+    "date": "23/09/2025",
+    "time": "1:30pm",
+    "location": "Online",
+    "agenda": "Review project requirements and assign initial tasks"
+  },
+  "output_filename": "sample_meeting_minutes"
+}
