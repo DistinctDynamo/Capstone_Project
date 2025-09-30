@@ -1,11 +1,11 @@
   --------------
-    Project Name
+  Soccer Connect
 
   Project Vision
         Document
 
        **Version
-           n.n**
+           0.1**
 
             Date
   --------------
@@ -98,21 +98,29 @@
 
 # Introduction
 
-\<Write an introduction of the Project Vision Document providing an
-overview of the entire document. \>
-
 ## Purpose
 
-\<Specify the purpose of the Project Vision Document and why the
-organization would create this document.\>
+The purpose of this document is to collect, analyze, and define the
+high-level needs and features of the Soccer Connect system. It focuses
+on the capabilities needed by the stakeholders, and the target users,
+and why these needs exist. The details of how the Soccer Connect System
+fulfils these needs are detailed in the use cases and supplementary
+specifications.
 
 ## Scope
 
-\<A brief description of scope\>
+This Vision Document applies to the Soccer Connect system which will be
+developed by the development team. The development team will develop
+this client-server system to interface with user devices, primarily
+computers.
 
 ### In Scope
 
-> \<Write areas in scope for this project\>
+The Soccer Connect application allows users to connect with the wider
+soccer playing/enjoying community of their region in a variety of ways.
+Including booking fields and play spaces, organizations can post job
+listings and inform potential players of openings on teams and offers a
+community hub where users can interact with one another.
 
 ### Out of Scope
 
@@ -279,15 +287,35 @@ project stakeholders\>
   -----------------------------------------------------------------------
   Stakeholder Name        Represents              Role
   ----------------------- ----------------------- -----------------------
-  \<Name the stakeholder  \< Briefly describe     \< Briefly describe the
-  type \>                 what the stakeholder    role the stakeholder
-                          represents with respect will play throughout
-                          to the project \>       the lifecycle of the
-                                                  project.\>
+  Team Members            The individuals who     The team members will
+                          will put most of the    research user needs,
+                          time and work into the  and using a variety of
+                          creation of the         technologies will
+                          app/system.             develop the system to
+                                                  be used by end users.
 
-                                                  
+  Soccer Clubs            An end user who         
+                          represents a            
+                          professional            
+                          organization that       
+                          benefits from wide      
+                          usage of the system.    
 
-                                                  
+  Players                 The average/most common User feedback will be
+                          user who will use the   used for upgrading and
+                          system.                 altering systems. The
+                                                  expectation that there
+                                                  will be many users will
+                                                  be used for stress
+                                                  testing.
+
+  Sponsors                A significant source of Partnering with another
+                          publicity and financial company can be a source
+                          support.                of funding for the
+                                                  project/a means to
+                                                  legitimize the final
+                                                  product to the wider
+                                                  public.
   -----------------------------------------------------------------------
 
   : Table 3 Stakeholder Summary
@@ -328,11 +356,25 @@ project stakeholders\>
 business stakeholder and potential system users \>
 
   -----------------------------------------------------------------------
-  ID                      Requirement             Stakeholder
+            ID            Requirement                   Stakeholder
   ----------------------- ----------------------- -----------------------
-                                                  
+             1            User profiles with              Players
+                          stats                   
 
-                                                  
+             2            Private chat rooms and          Players
+                          direct messaging.       
+
+             3            Job/staff listings.          Soccer Clubs
+
+             4            Field/play space                Players
+                          booking.                
+
+             5            Posting Advertisements         Sponsors
+
+             6            Team management          Soccer Clubs/Players
+
+             7            General message board       Players/Soccer
+                                                      Clubs/Sponsors
 
                                                   
   -----------------------------------------------------------------------
@@ -354,6 +396,10 @@ should be implemented \>
                                                   
 
                                                   
+
+                                                  
+
+                                                  
   -----------------------------------------------------------------------
 
   : Table 6 System Features
@@ -368,3 +414,43 @@ solution, requirements, business process, and stakeholders \>*
 
 *\<List any process constraints, external constraints or other
 dependencies \>*
+
+Security
+
+- User info which includes username and passwords which need to be
+  stored in a database server
+
+- Two factor authentication
+
+- Users sign in with a username and password
+
+- Encrypting/securing communications not just between users but from the
+  system to databases
+
+Usability
+
+- Font size, color choices
+
+- Layout in conjunction with advertisement is legible
+
+- Easy to use
+
+Capacity
+
+- Based on technology used there is maximum limit to the number of
+  active logged in users.
+
+Cost
+
+- Since we are a small team there is probably a cost associated with
+  technology required to enable features.
+
+Scope
+
+- As development occurs there could be a growth in the number of
+  features initially desired by the team that does not align with
+  features required by stakeholders.
+
+Time
+
+- 
